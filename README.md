@@ -13,6 +13,5 @@ Note: You'll need to have a hosts file under the script/ folder to run the worke
 -e MAX_LIFETIME_SECONDS=60 \
 -h worker-hostname \
 -v /path/to/miniproject/:/opt/miniproject \
-miniplay/video-index-worker
- ```
+miniplay/video-index-worker ```
 
