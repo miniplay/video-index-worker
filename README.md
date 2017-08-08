@@ -7,4 +7,5 @@ Note: You'll need to have a hosts file under the script/ folder to run the worke
 
 ``` docker build --tag "miniplay/video-index-worker"  --no-cache=true . ```
 
+
 ``` docker run -it --name=worker-01 -e ENV=desired_environment -e VERBOSE=0 -e MAX_LIFETIME_SECONDS=60 -h worker-hostname -v /path/to/miniproject/:/opt/miniproject miniplay/video-index-worker ```
