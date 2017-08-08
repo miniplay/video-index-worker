@@ -1,5 +1,5 @@
 # video-index-worker
-Docker container for Miniplay's Youtube video indexation workers
+Docker container for Miniplay's Youtube video indexation workers.
 
 Note: You'll need to have a hosts file under the script/ folder to run the worker properly as the container does not recognizes some aliases.
 
